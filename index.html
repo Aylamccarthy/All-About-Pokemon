@@ -5,14 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&family=Lato:wght@300&family=Poppins:wght@300&display=swap" rel="stylesheet">
+
     <title>Document</title>
 </head>
 <body>
-    <h1 class="heading">
-        <img class="logo"  src="#" alt="logo"> All About Pokemon!
-    </h1>
-    <div class="game-area">
+    <header>
+        <a href="index.html">
+            <h1 id="logo"> All About  Pokemon! </h1>
+        </a>
+        <nav id="menu">
+            <ul>
 
+                <li>
+                    <a href="index.html" class="active">Home</a>
+                   </li>
+           
+                <li>
+                    <a href="aboutus.html" class="#">About Us</a>
+                    </li>
+                <li>
+                    <a href="signup.html" class="#">Sign Up</a>
+                    </li>
+                    
+                
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="game-area">
+         <div class="question-area">
+
+         </div>
+         <div class="score-area">
+            <p class="scores">Correct Answers <span id="score">0</span></p>
+            <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
+
+         </div>
 
     </div>
     <!--footer-->
@@ -21,7 +52,9 @@
 
         <div id="social-media">
             <h3 class="text-center">Follow us on Social Media</h3>
+
             <!--font awesome icons as the clickable links to social media sites. Links open in a new tab -->
+
             <ul class="text-center">
                 <li>
                     <a href="https://facebook.com" target="_blank" rel="noopener"
