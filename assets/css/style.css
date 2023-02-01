@@ -1,1 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&family=Lato:ital,wght@0,300;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body {
+    font-family: 'Chivo Mono', sans-serif; 
+    font-weight: 300;
+    color: #2a2a2a;   
+}
+/* headings and logo */
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #352165;
+}
+#menu li {
+    padding-right: 3rem;
+    display: flex;
+    justify-content: flex-start;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+#menu, #logo { 
+    padding: .5em 0 .5em 0;
+    line-height: 30px;
+
+}
+#menu a:hover {
+    border-bottom: 1px solid #352165;
+
+}
+
+.question-area {
+    min-height: 50vh;
+    background-color: dimgray;
+}
+
+/* Footer */
+footer {
+    height: 50vh;
+    width: 100%;
+    
+    
+}
+
+#social-media li {
+    display: inline;
+    justify-content: center;
+}
+
+#social-media i {
+    color:  #352165;;
+    font-size: 150%;
+    margin: 1% 1%;
+    padding: 1%  1% 1% 1%;
+
+}
 
