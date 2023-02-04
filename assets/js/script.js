@@ -75,10 +75,12 @@ function clearStatusClass(element) {
   element.classList.remove('correct')
   element.classList.remove('wrong')
 }
-// The first five questions was from https://www.theguardian.com/games/2020/sep/01/gotta-quiz-em-all-the-guardians-pokemon-quiz
+/**
+ * The first five questions was from https://www.theguardian.com/games/2020/sep/01/gotta-quiz-em-all-the-guardians-pokemon-quiz 
+ * The rest are taken from Pokémon Annual 2023 and Pokémon Deluxe Essential Handbook */ 
 const questions = [
   {
-    question: 'The Pokemon anime series has focused on the adventures of Ash since it made its debut in 1997. But what is his surname?',
+    question: 'The Pokémon anime series has focused on the adventures of Ash since it made its debut in 1997. But what is Ash\'s surname?',
     answers: [
       { text: 'Kotchum', correct: false },
       { text: 'Katchum', correct: false },
@@ -87,7 +89,7 @@ const questions = [
     ]
   },
   {
-    question: 'Lovable inept rogues Team Rocket have been trying to catch Ash Pikachu for decades. What are their names?',
+    question: 'Lovable inept rogues Team Rocket have been trying to catch Ash\'s Pikachu for decades. What are their names?',
     answers: [
       { text: 'Jessie and James', correct: true },
       { text: 'Joanie and James', correct: false },
@@ -97,7 +99,7 @@ const questions = [
     ]
   },
   {
-    question: 'The first legendary Pokemon, introduced in the Kanto region are Articuno, Zapdos, and...?',
+    question: 'The first legendary Pokémon, introduced in the Kanto region are Articuno, Zapdos, and...?',
     answers: [
       { text: 'Mew', correct: false },
       { text: 'Lugia', correct: false },
@@ -106,12 +108,163 @@ const questions = [
     ]
   },
   {
-    question: 'The Alola region, which was the setting for Pokemon Sun and Pokemon Moon, is loosely based on which US state ?',
+    question: 'The Alola region, which was the setting for Pokémon Sun and Pokémon Moon, is loosely based on which US state ?',
     answers: [
       { text: 'Florida', correct: false },
       { text: 'Hawaii', correct: true },
       { text: 'New Yok', correct: false },
       { text: 'California', correct: false }
     ]
-  }
+  },
+  { 
+  question:  'Who is Eevee\'s partner?',
+  answers: [
+      { text: 'Joan', correct: false },
+      { text: 'Chloe', correct: true },
+      { text: 'Jane', correct: false },
+      { text: 'Chris', correct: false }
+    ]
+  },
+  {
+ question: 'From which pokémon does a Gyarados evolve?',
+  answers: [
+      { text: 'Stunfisk', correct: false },
+      { text: 'Magikarp', correct: true },
+      { text: 'Kraby', correct: false },
+      { text: 'Kingler', correct: false }
+  ]
+  },
+ {
+  question: 'Galvantula is a dual-type pokémon. What are it\'s two types?',
+  answers: [
+       { text: 'Bug and Electric', correct: true},
+       { text: 'Bug and Poison', correct: false },
+       { text: 'Bug and Fire', correct: false },
+       { text: 'Bug and Water', correct: false }
+    ]
+   },
+   {
+   question: 'How many arms does a Machamp have?',
+   answers: [
+       { text: 'Four', correct: true},
+       { text: 'Two', correct: false },
+       { text: 'Six', correct: false },
+       { text: 'Eight', correct: false }
+      ]
+   },
+   {
+  question: 'In which region will you find a Nickit?',
+  answers: [
+      { text: 'Kanto', correct: false},
+      { text: 'Galar', correct: true },
+      { text: 'Alola', correct: false },
+      { text: 'Unova', correct: false }
+    ]
+   },
+   {
+  question: 'How many arms does a Machamp have?',
+  answers: [
+      { text: 'Four', correct: true},
+      { text: 'Two', correct: false },
+      { text: 'Six', correct: false },
+      { text: 'Eight', correct: false }
+   ]
+   },
+   {
+  question: 'What weapon does a Galarian Farfetch\'d wield in battle?',
+  answers: [
+     { text: 'Leek', correct: true},
+     { text: 'Onion', correct: false },
+     { text: 'Fire', correct: false },
+     { text: 'Ice', correct: false }
+    ]
+   },
+   {
+  question: 'Which blue Pokémon cries when it\'s scared?',
+  answers: [
+      { text: 'Magikarp', correct: false},
+      { text: 'Sobble', correct: true},
+      { text: 'Bulbasur', correct: false },
+      { text: 'Squirtle', correct: false }
+    ]
+   },
+   {
+   question: 'What shape of mark does a Woobat leave behind?',
+   answers: [
+      { text: 'Heart', correct: true},
+      { text: 'Diamond', correct: false },
+      { text: 'Square', correct: false },
+      { text: 'Hexagon', correct: false }
+    ]
+  },
+  {
+  question: 'How many arms does a Machamp have?',
+  answers: [
+      { text: 'Four', correct: true},
+      { text: 'Two', correct: false },
+      { text: 'Six', correct: false },
+      { text: 'Eight', correct: false }
+    ]
+  },
+  {
+  question: 'How many arms does a Machamp have?',
+  answers: [
+      { text: 'Four', correct: true},
+      { text: 'Two', correct: false },
+      { text: 'Six', correct: false },
+      { text: 'Eight', correct: false }
+  ]
+ },
+ {
+  question: 'From which Pokémon does a Grapploct evolve?',
+  answers: [
+      { text: 'Machamp', correct: false},
+      { text: 'Clobbopus', correct: true },
+      { text: 'Snorlax', correct: false },
+      { text: 'Riolu', correct: false }
+     ]
+ },
+ {
+ question: 'What\'s the name of the Water-and-Dragon-Type fossil Pokémon?',
+ answers: [
+      { text: 'Four', correct: false},
+      { text: 'Two', correct: false },
+      { text: 'Six', correct: false },
+      { text: 'Dracovish', correct: true }
+    ]
+},
+{
+question: 'How many arms does a Machamp have?',
+answers: [
+      { text: 'Four', correct: true},
+      { text: 'Two', correct: false },
+      { text: 'Six', correct: false },
+      { text: 'Eight', correct: false }
+     ]
+ },
+  {
+  question: 'Bulbasaur is what type of Pokémon?',
+  answers: [
+      { text: 'Legendary', correct: false},
+      { text: 'Normal', correct: false },
+      { text: 'Electric', correct: false },
+      { text: 'Grass-Poison', correct: true }
+     ]
+  },
+  {
+  question: 'Giratina is a Legendary Pokémon. But does it evolve?',
+  answers: [
+       { text: 'No', correct: true},
+       { text: 'Yes', correct: false }
+     ]
+  }, 
+  {
+  question: 'Which Region will you find adorable Clefairy?',
+  answers: [
+      { text: 'Sinoh', correct: true},
+      { text: 'Alola Kanto', correct: true },
+      { text: 'Kalos', correct: false },
+      { text: 'Johto', correct: false }
+       ]
+      }
 ]
