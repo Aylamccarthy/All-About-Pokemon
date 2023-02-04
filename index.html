@@ -21,12 +21,13 @@
     <link rel="icon" type="image/png" href="assets/images/favicon.ico">
 </head>
 <body>
-    
-    <header id="header-container">
-        <a href="index.html">
-            <h1 id="logo"> All About  Pokemon! </h1>
-        </a>
-        <nav id="menu">
+    <div class="container"> 
+        <header id="header-container">
+          <a href="index.html">
+            <h1 id="logo"> All About </h1>
+            <img class="logo"  src="assets/images/pokemon-logo (1).png" alt="pokemon-logo">
+          </a>
+          <nav id="menu">
             <ul>
 
                 <li>
@@ -34,17 +35,17 @@
                    </li>
            
                 <li>
-                    <a href="aboutus.html" class="active">About Us</a>
+                    <a href="aboutus.html" class="active">About</a>
                     </li>
                 <li>
                     <a href="signup.html" class="active">Sign Up</a>
                     </li>
             </ul>
-        </nav>
+            </nav>
     </header>
+
     <!--Game Section-->
-    <body>
-        <div class="container">
+            <p class="intro">Are you a Pokémon Master? Let's go find out!</p>
           <div id="question-container" class="hide">
             <div id="question">Question</div>
             <div id="answer-buttons" class="btn-grid">
@@ -58,10 +59,7 @@
             <button id="start-btn" class="start-btn btn">Start</button>
             <button id="next-btn" class="next-btn btn hide">Next</button>
           </div>
-        </div>
-      </body>
-   
-    <!--footer-->
+   <!--footer-->
 
     <footer>
 
@@ -90,12 +88,16 @@
             </ul>
         </div>
         
-       <p>&copy;Copyright2023 Designed by Ayla McCarthy. This Website was created for educational purposes only.</p>
+       <p class="copyright">&copy;Copyright2023 Designed by Ayla McCarthy. This Website was created for educational purposes only.</p>
 
     </footer>
 
+  </div>
+   
+  
     <!--Fontawesome script-->
     <script src="https://kit.fontawesome.com/7141b35c3c.js" crossorigin="anonymous"></script>
+    <!--Main Javascript-->
     <script src="assets/js/script.js"></script>
 </body>
 </html>

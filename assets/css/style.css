@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&family=Lato:ital,wght@0,300;1,300&display=swap');
+
 *, *::before, *::after {
     box-sizing: border-box;
-    font-family: Gotham Rounded;
+    font-family: Lato;
   }
 
   :root {
@@ -19,6 +21,8 @@
     height: 100vh;
     justify-content: center;
     align-items: center;
+    background-image: url(../images/allthree.png);
+    background-size: cover;
    
   }
   
@@ -30,15 +34,24 @@
     --hue: var(--hue-wrong);
   }
   
+  #header-container {
+    display: flex;
+    justify-content: center;
+  }
   .container {
-    width: 800px;
-    max-width: 80%;
+    height: 600px;
+    width: 1300px;
+    max-width: 100%;
     background-color: white;
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 0 10px 2px;
   }
-  
+  .intro {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+  }
   .btn-grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -52,8 +65,10 @@
     background-color: hsl(var(--hue), 100%, 50%);
     border-radius: 5px;
     padding: 5px 10px;
-    color: white;
+    color:white;
     outline: none;
+    font-size: 1rem;
+    
   }
   
   .btn:hover {
@@ -84,3 +99,26 @@
   .hide {
     display: none;
   }
+
+  /* Footer */
+  #social-media {
+    display: flex;
+    justify-content: center;
+  }
+  #social-media li {
+    display: inline;
+}
+#social-media i {
+  color:  #352165;;
+  font-size: 180%;
+  margin: 1% 1%;
+  padding: 5%  5% 5% 5%;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+ 
