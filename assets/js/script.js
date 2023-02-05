@@ -269,7 +269,7 @@ answers: [
   {
   question: 'Which Region will you find adorable Clefairy?',
   answers: [
-      { text: 'Sinoh', correct: true},
+      { text: 'Sinoh', correct: false},
       { text: 'Alola Kanto', correct: true },
       { text: 'Kalos', correct: false },
       { text: 'Johto', correct: false }
