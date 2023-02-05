@@ -11,7 +11,10 @@
     --hue-correct: 145;
   }
   
- 
+ #logo {
+  color: red;
+  font-size: 2rem;
+ }
   body {
     --hue: var(--hue-neutral);
     padding: 0;
