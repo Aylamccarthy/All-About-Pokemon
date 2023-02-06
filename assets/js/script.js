@@ -242,7 +242,7 @@ const questions = [
     ]
 },
 {
-question: 'What is the name of the new girl Ash and Brock meet  in the Sinnoh Region?',
+question: 'What is the name of the new girl Ash and Brock met  in the Sinnoh Region?',
 answers: [
       { text: 'Dawn', correct: true},
       { text: 'Rachel', correct: false },
