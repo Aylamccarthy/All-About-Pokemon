@@ -2,6 +2,15 @@
 // Get the button elements and add event listeners to them
 
 document.addEventListener("DOMContentLoaded", function() {
+  let buttons = document.getElementsByTagName("button");
+ 
+  for (let button of buttons) {
+    button.addEventListener("click", function() {
+      if (this.getAttribute("data-type") === "start") {
+        alert("You clicked Start")
+      }
+    })
+  }
 
 })
 
@@ -83,6 +92,19 @@ function clearStatusClass(element) {
   element.classList.remove('correct')
   element.classList.remove('wrong')
 }
+
+/*Increment right and wrong answers */
+function incrementScore() {
+
+}
+
+function incrementWrongAswer() {
+
+}
+
+
+
+
 /**
  * The first five questions was from https://www.theguardian.com/games/2020/sep/01/gotta-quiz-em-all-the-guardians-pokemon-quiz 
  * The rest are taken from Pokémon Annual 2023 and Pokémon Deluxe Essential Handbook */ 
