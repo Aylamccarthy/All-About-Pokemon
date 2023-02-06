@@ -170,12 +170,12 @@ const questions = [
     ]
    },
    {
-  question: 'How many arms does a Machamp have?',
+  question: 'What type of pokémon is Charmander?',
   answers: [
-      { text: 'Four', correct: true},
-      { text: 'Two', correct: false },
-      { text: 'Six', correct: false },
-      { text: 'Eight', correct: false }
+      { text: 'Psychic', correct: false},
+      { text: 'Water', correct: false },
+      { text: 'Fire', correct: true },
+      { text: 'Grass', correct: false }
    ]
    },
    {
@@ -206,21 +206,21 @@ const questions = [
     ]
   },
   {
-  question: 'How many arms does a Machamp have?',
+  question: 'Who is Ash\'s pokémon buddy?',
   answers: [
-      { text: 'Four', correct: true},
-      { text: 'Two', correct: false },
-      { text: 'Six', correct: false },
-      { text: 'Eight', correct: false }
+      { text: 'Meowth', correct: false},
+      { text: 'Scarbunny', correct: false },
+      { text: 'Snorlax', correct: false },
+      { text: 'Pikachu', correct: true }
     ]
   },
   {
-  question: 'How many arms does a Machamp have?',
+  question: 'What does a Lotad evolve into?',
   answers: [
-      { text: 'Four', correct: true},
-      { text: 'Two', correct: false },
-      { text: 'Six', correct: false },
-      { text: 'Eight', correct: false }
+      { text: 'Torch', correct: false},
+      { text: 'Beautifly', correct: false },
+      { text: 'Lombre', correct: true },
+      { text: 'Dustox', correct: false }
   ]
  },
  {
@@ -235,19 +235,19 @@ const questions = [
  {
  question: 'What\'s the name of the Water-and-Dragon-Type fossil Pokémon?',
  answers: [
-      { text: 'Four', correct: false},
-      { text: 'Two', correct: false },
-      { text: 'Six', correct: false },
+      { text: 'Bulbasaur', correct: false},
+      { text: 'Squirtle', correct: false },
+      { text: 'Gastly', correct: false },
       { text: 'Dracovish', correct: true }
     ]
 },
 {
-question: 'How many arms does a Machamp have?',
+question: 'What is the name of the new girl Ash and Brock meet  in the Sinnoh Region?',
 answers: [
-      { text: 'Four', correct: true},
-      { text: 'Two', correct: false },
-      { text: 'Six', correct: false },
-      { text: 'Eight', correct: false }
+      { text: 'Dawn', correct: true},
+      { text: 'Rachel', correct: false },
+      { text: 'Bidoof', correct: false },
+      { text: 'Julie', correct: false }
      ]
  },
   {
