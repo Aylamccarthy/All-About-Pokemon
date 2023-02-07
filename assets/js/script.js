@@ -23,20 +23,22 @@ const answerButtonsElement = document.getElementById('answer-buttons')
 
 let shuffledQuestions, currentQuestionIndex
 
-startButton.addEventListener('click', startGame)
+startButton.addEventListener('click', startGame) // startGame function will execute  when the "Start" button is clicked
 nextButton.addEventListener('click', () => {
   currentQuestionIndex++
   setNextQuestion()
 })
 
+// The function that will execute when the "Start" button is clicked 
 function startGame() {
   startButton.classList.add('hide')
-  shuffledQuestions = questions.sort(() => Math.random() - .5)
+  shuffledQuestions = questions.sort(() => Math.random() - .5) // Shuffles the questions so they are in different random order for each game
   currentQuestionIndex = 0
   questionContainerElement.classList.remove('hide')
   setNextQuestion()
 }
 
+// The function that will execute when the "Next" button is clicked
 function setNextQuestion() {
   resetState()
   showQuestion(shuffledQuestions[currentQuestionIndex])
@@ -56,14 +58,19 @@ function showQuestion(question) {
   })
 }
 
+// Reset everthing back to default state every time new question is set
 function resetState() {
-  clearStatusClass(document.body)
   nextButton.classList.add('hide')
   while (answerButtonsElement.firstChild) {
     answerButtonsElement.removeChild(answerButtonsElement.firstChild)
   }
 }
 
+/**
+ * Loops through all the questions in the questions array and 
+ * if its the last question, the "Restart" button will appear giving the user
+ * an option to restart the game
+ */
 function selectAnswer(e) {
   const selectedButton = e.target
   const correct = selectedButton.dataset.correct
