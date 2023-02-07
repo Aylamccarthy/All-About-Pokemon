@@ -29,7 +29,7 @@ nextButton.addEventListener('click', () => {
   setNextQuestion()
 })
 
-// The function that will execute when the "Start" button is clicked 
+// This function that will execute when the "Start" button is clicked 
 function startGame() {
   startButton.classList.add('hide')
   shuffledQuestions = questions.sort(() => Math.random() - .5) // Shuffles the questions so they are in different random order for each game
@@ -38,7 +38,7 @@ function startGame() {
   setNextQuestion()
 }
 
-// The function that will execute when the "Next" button is clicked
+// This function that will execute when the "Next" button is clicked
 function setNextQuestion() {
   resetState()
   showQuestion(shuffledQuestions[currentQuestionIndex])

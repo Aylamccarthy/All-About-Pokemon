@@ -2,7 +2,7 @@
 
 *, *::before, *::after {
     box-sizing: border-box;
-    font-family: Lato;
+    font-family: Lato, sans-serif;
   }
 
   :root {
@@ -14,7 +14,35 @@
  #logo {
   color: red;
   font-size: 2rem;
+  list-style-type: none;
  }
+
+ /* navigation links */
+
+#menu {
+  font-size: 110%;
+  letter-spacing: 2px;
+}
+
+#menu {
+  line-height: 30px;
+
+}
+
+#menu li {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+#menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#menu a:hover {
+  border-bottom: 1px solid #3a3a3a;
+}
  
   body {
     --hue: var(--hue-neutral);
@@ -54,7 +82,7 @@
     box-shadow: 0 0 10px 2px; /* nice blur effect of the question box */
   }
   .intro {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     display: flex;
     justify-content: center;
   }
@@ -107,6 +135,11 @@
   .hide {
     display: none;
   }
+  .score-area {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
 
   /* Progress Bar */
 #progressBar {
@@ -121,6 +154,8 @@
   background-color: #56a5eb;
   width: 0%;
 }
+
+/* sign up form */
 
 
   /* Footer */
