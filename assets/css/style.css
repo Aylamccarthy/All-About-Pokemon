@@ -209,6 +209,13 @@
 }
 
 
+/* Thank you page */
+.confirmation-msg {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
 
   /* Footer */
   #social-media {
