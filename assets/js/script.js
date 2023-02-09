@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     button.addEventListener("click", function() {
       if (this.getAttribute("data-type") === "start") {
          startGame()
+
       }
     })
   }
@@ -74,7 +75,6 @@ function resetState() {
 function selectAnswer(e) {
   const selectedButton = e.target
   const correct = selectedButton.dataset.correct
-  setStatusClass(document.body, correct)
   Array.from(answerButtonsElement.children).forEach(button => {
     setStatusClass(button, button.dataset.correct)
   })
@@ -100,12 +100,24 @@ function clearStatusClass(element) {
   element.classList.remove('wrong')
 }
 
-/*Increment right and wrong answers */
-function incrementScore() {
-
+function checkAnswer() {
+  let userAnswer = []
+  let correctAnswer 
 }
 
+
+/*Increment right and wrong answers */
+
+//Gets the current score from the DOM and increments it by 1
+function incrementScore() {
+  let oldScore = parseInt(document.getElementById('correct-answer').innerText);
+  document.getElementById('correct-answer').innertext = ++oldScore;
+
+}
+// Gets the current tally of incorrect answers from the DOM and increase it by 1
 function incrementWrongAswer() {
+  let oldScore = parseInt(document.getElementById('incorrect-answer').innerText);
+  document.getElementById('incorrect-answer').innertext = ++oldScore;
 
 }
 

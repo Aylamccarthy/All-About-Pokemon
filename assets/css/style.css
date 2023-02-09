@@ -140,11 +140,11 @@
     justify-content: center;
     gap: 2rem;
   }
-  #score {
+  #correct-answer {
     color: green;
     
   }
-  #incorrect {
+  #incorrect-answer{
     color: red;
   }
 
