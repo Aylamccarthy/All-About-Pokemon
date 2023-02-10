@@ -164,7 +164,7 @@
 }
 
 /* Sign up Page */
-.form-container {
+.backgroundimage-container {
   background-image: url(../images/allthree.png);
   display: flex;
   justify-content: center;
@@ -173,6 +173,10 @@
   width: 1300px;
   max-width: 100%;
 }
+
+/* About Us page */
+
+
 
 
 
