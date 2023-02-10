@@ -178,7 +178,53 @@
   box-shadow: 0 0 15px 0;
   padding: 40px 30px;
   max-width: 600px;
+  border-radius: 15px;
+  width: 60%;
+  padding-top: .5rem;
   
+}
+.login-title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input-group input {
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  border-radius: .25em;
+}
+
+.input-group input:focus {
+  box-shadow: 0 0 0 1px hsla(358, 100%, 50%, 0.8);
+}
+
+.signup-button {
+  padding: .5em 1em;
+  font-size: 1.25rem;
+  background-color: hsla(52, 84%, 59%, 0.953);
+  border-radius: .25em;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.signup-button:hover,
+.signup-button:focus {
+  background-color: hsla(22, 93%, 46%, 0.953)
 
 }
 
