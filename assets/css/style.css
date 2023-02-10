@@ -256,12 +256,14 @@
   /* Footer */
 footer {
   margin-top: auto;
-  padding-top: 3rem;
+  padding-top: 5rem;
 }
 
 .copyright {
   display: flex;
   justify-content: center;
+  text-align: center;
+  font-size: small;
 }
 
 
