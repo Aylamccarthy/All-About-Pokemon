@@ -317,3 +317,21 @@ answers: [
        ]
       }
 ]
+
+/**
+ * Sign up page
+ * Sign up form inside a modal
+ * Idea from my mentor and Kevin Powell's 'Modal Made Easy' tutorial
+ */
+
+const modal = document.querySelector("#modal");
+const openModal = document.querySelector(".open-button");
+const closeModal = document.querySelector(".close-button");
+
+openModal.addEventListener('click', () => {
+  modal.showModal();
+})
+
+closeModal.addEventListener('click', () => {
+  modal.closeModal();
+});
