@@ -173,6 +173,14 @@
   width: 1300px;
   max-width: 100%;
 }
+.signin-container {
+  background-color: hsl(200, 100%, 50%, .8);
+  box-shadow: 0 0 15px 0;
+  padding: 40px 30px;
+  max-width: 600px;
+  
+
+}
 
 /* About Us page */
 
