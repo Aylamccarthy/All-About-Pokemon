@@ -266,6 +266,9 @@ footer {
   font-size: small;
 }
 
+/* Custom 404 error page */
 
-
+.error-msg {
+  text-align: center;
+}
  
