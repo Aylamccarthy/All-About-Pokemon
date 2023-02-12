@@ -84,6 +84,7 @@ function selectAnswer(e) {
     startButton.innerText = 'Restart'
     startButton.classList.remove('hide')
   }
+  
 }
 
 function setStatusClass(element, correct) {
@@ -110,9 +111,8 @@ function checkAnswer() {
 
 //Gets the current score from the DOM and increments it by 1
 function incrementScore() {
-  let oldScore = parseInt(document.getElementById('correct-answer').innerText);
-  document.getElementById('correct-answer').innertext = ++oldScore;
-
+  correctScore = correctScore + 1;
+  document.getElementById('correct-answer').innerText = correctScore;
 }
 // Gets the current tally of incorrect answers from the DOM and increase it by 1
 function incrementWrongAswer() {
@@ -318,20 +318,3 @@ answers: [
       }
 ]
 
-/**
- * Sign up page
- * Sign up form inside a modal
- * Idea from my mentor and Kevin Powell's 'Modal Made Easy' tutorial
- */
-
-const modal = document.querySelector("#modal");
-const openModal = document.querySelector(".open-button");
-const closeModal = document.querySelector(".close-button");
-
-openModal.addEventListener('click', () => {
-  modal.showModal();
-})
-
-closeModal.addEventListener('click', () => {
-  modal.closeModal();
-});
