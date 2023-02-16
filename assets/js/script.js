@@ -56,6 +56,7 @@ function showQuestion(question) {
     }
     button.addEventListener('click', selectAnswer)
     answerButtonsElement.appendChild(button)
+    button.addEventListener('click', incrementScore)
   })
 }
 
