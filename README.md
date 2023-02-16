@@ -6,6 +6,10 @@ View the live website here [All About Pokemon!](https://aylamccarthy.github.io/a
 
 ![Mockup](docs/readme_images/mockup_techsini.png)
 
+External User's Goal:
+
+Site Owner's Goal:
+
 ## TABLE OF CONTENTS
 
 * [Features](#Features)

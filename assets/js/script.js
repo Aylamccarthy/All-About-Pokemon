@@ -103,8 +103,18 @@ function clearStatusClass(element) {
 }
 
 function checkAnswer() {
-  let userAnswer = []
-  let correctAnswer 
+  const selectedButton = e.target
+  const correct = selectedButton.dataset.correct
+  Array.from(answerButtonsElement.children).forEach(button => {
+    setStatusClass(button, button.dataset.correct)
+  })
+  if (selectedButton === true) {
+    incrementScore()
+  } else {
+    incrementWrongAnswer()
+
+  }
+ 
 }
 
 
@@ -117,7 +127,7 @@ function incrementScore() {
 
 }
 // Gets the current tally of incorrect answers from the DOM and increase it by 1
-function incrementWrongAswer() {
+function incrementWrongAnswer() {
   let oldScore = parseInt(document.getElementById('incorrect-answer').innerText);
   document.getElementById('incorrect-answer').innertext = ++oldScore;
 
