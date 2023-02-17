@@ -92,63 +92,61 @@ This will allow users to easily navigate between the pages within the site on an
 
 
 
-![Nav Menu](docs/readme_images/nav_menu.png)
-
-
-* Footer 
- * The first part of the footer will contain contact information for 'Cobh Children's Theatre'. Telephone number and email address are clickable for ease of access.
- * It will also contain icons as links to social media websites that will open in new tabs. Icons will be accessible to the visually impaired who may be using a screen reader, by the use of aria labels.
- *This will allow the user to follow 'Cobh Children's Theatre' on various social media where they can get more up to date information that may not be displayed on the website. The contact information will allow the user to contact the club directly.
-
-
-![Footer](docs/readme_images/footer.png)
-
+![Nav Menu](assets/images/nav_menu.png)
 
 
 ### Landing Page
 
-This is an image of our two gorgeous girl members performing.
-This will help to immediately show and entice the user what the website is about and how much fun their children will have should they decide to sign them up.
-![Landing Page Image](docs/readme_images/landing_page.png)
-
-* Website information on 'Cobh Children's Theatre'
- * Information about the club and the websites purpose including the benefits all the acitivities can have on their members.
- * This information lets the user know what the site is about.
-
+This is an image of the quiz that has just started.
+This will help to immediately show and entice the user what the website is about and how much fun they will have should they decide to proceed and play the game.
+![Landing Page Image](assets/images/landing_page.png)
 
 ### Sign Up Page
- * A sign up form will be implemented to allow users to sign up to the club. The form will consist of the following fields and attributes:
-    * Child's Name (required, type=text)
-    * Parent/Guardian's Full Name (required, type=text)
-    * Contact Number (required, type=tel)
+ * A sign up form is provided to allow users to sign up to the website. The form will consist of the following fields and attributes:
+    * Name (required, type=text)
     * Email (required, type=email)
+    * Password (required, type=password)
     
-![Sign Up Form](docs/readme_images/signup_form.png)
+![Sign Up Form](assets/images/signup_form.png)
 
-* On successful submission of the Sign form, the user will be navigated to contact.html displaying a success message.
-This will allow user to contact the club if they have any queries about the club, information about all the activities or membership.
-
-![Thank you message](docs/readme_images/thankyou_msg.png)
+* On successful submission of the Sign up form, the user will be navigated to thankyou.html displaying a success message.
 
 
-### Gallery Page
-
-* Gallery
-    * The gallery will provide the user with photos of the our club members in action.
-This will give the user a glimpse of how much fun and exciting it is to be a member of the club.
-
-![Gallery](docs/readme_images/gallery.png)
+![Thank you message](assets/images/thankyou_page.png)
 
 
 ### Existing Features
 
 * Responsive design
-* Gallery
+* Interactive quiz game
 * Sign up form and success page
 
-### Features Left to Implement
+### Color Scheme
 
-* As a future enhancement, the Sign up form will be updated with javascript to send an email to the club with the contact information.
+The website uses a pallete of pastel colors generated from https://coolors.co/generate. This is intentional choice to complement the bright and colorful pokemon figures.
+
+![Color Paletter](assets/images/colorscheme.png)
+
+### Typography
+
+Google Fonts was used for the following fonts:
+* Lato
+* Chivo Mono
+
+### Accessibility
+
+I have been mindful throughout the building process to ensure that the website is as accessible as possible. I tried to achieve this by:
+
+ * Using semantic HTML.
+ * Using  descriptive  alt attribute on images on the site.
+ * Providing information for screen readers where there are icons and no text used, such as the footer icons.
+ * Guaranteeing adequate colour contrast  throughout the site.
+
+
+### 404 Page
+The website has a custom 404 page with adequate information to guide users back to the site, should they happen to type the wrong URL or used broken links.
+
+![404 page](assets/images/404page.png)
 
 
 ## Design
@@ -183,11 +181,12 @@ Sign Up Form
 
 ## Technologies
 
-
 * HTML
     * The structure of the Website was developed using HTML as the main language.
 * CSS
     * The Website was styled using custom CSS in an external file.
+* JavaScript
+    * JavaScript was used to ensure interactivity.
 * GitHub
     * Source code is hosted on GitHub and delpoyed using Git Pages.
 * Git
@@ -198,9 +197,14 @@ Sign Up Form
     * https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
 * balsamiq
     * Wireframes were created using balsamiq from https://balsamiq.com/wireframes/desktop/#
+* Coolors.co
+    * The colour pallete used throughout the site was generated from Coolors.
 
 
 ## Testing
+
+Testing was ongoing throughout the entire build. I utilised Chrome Developer tools while building to pinpoint and troubleshoot any issues as I went along.
+
 ### Responsiveness
 
 All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in WCAG 2.1 Reflow criteria for responsive design on Chrome, Edge, Firefox and Opera browsers.
