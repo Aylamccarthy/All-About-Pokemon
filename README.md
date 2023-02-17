@@ -249,8 +249,15 @@ HTML page lang attribute has been set.
 
 ## Lighthouse Testing
 
-![Lighthouse Test](docs/readme_images/lighthouse.test.png)
+### Home Page
 
+![Lighthouse Test Home page](assets/images/lighthouse_homepage.png)
+
+### About Us Page
+![Lighthouse About Us page](assets/images/lighthouse_aboutus.png)
+
+### Sign Up Page
+![Lighthouse Sign Up page](assets/images/lighthouse_signup.png)
 
 ### Functional Testing
 
