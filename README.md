@@ -1,6 +1,7 @@
-# **All About Pokemon**
+# **All About Pokémon**
 
-All About Pokémon is a fun Pokémon-themed website that features fun  activities for kids and grown-ups alike. For now, the website only feature a simple quiz game. But the goal is, for future release, the website will have more activities, such as memory game, puzzles, spellings, word search and more. All pokémon-themed of course. I got this idea from my three young kids who all love and enjoy anything and everything about pokémon.
+All About Pokémon is a fun Pokémon-themed website that features fun  activities for kids and grown-ups alike. For now, the website only feature a simple quiz game. But the goal is, for future release, the website will have more activities, such as memory game, puzzles, spellings, word search and more. All pokémon-themed of course. I got this idea from my three young kids who all love and enjoy anything and everything about Pokémon.
+
 View the live website here [All About Pokemon!](https://aylamccarthy.github.io/all-about-pokemon/).
 
 
@@ -97,8 +98,10 @@ This will allow users to easily navigate between the pages within the site on an
 
 ### Landing Page
 
-This is an image of the quiz that has just started.
-This will help to immediately show and entice the user what the website is about and how much fun they will have should they decide to proceed and play the game.
+* The page has an appealing design and an intuitive navigation and orientation.
+* The website is fully responsive on all screen sizes.
+* Easy access to start the game.
+* All these features aim to help to immediately show and entice the user what the website is about and how much fun they will have should they decide to proceed and play the game.
 ![Landing Page Image](assets/images/landing_page.png)
 
 ### Sign Up Page
@@ -493,7 +496,7 @@ Navigate to the GitHub Repository you want to clone to use locally:
 
 
 ## Content
-All the images are from https://pexels.com and https://pixabay.com/.
+All the images are from  and .
 Wikipedia and google were used for word definitions.
 All contents are owned by Cobh Children's Theatre. 
 
@@ -506,10 +509,30 @@ All contents are owned by Cobh Children's Theatre.
 
 
 
-Resources
-Pokemon Annual 2023
-Pokemon Super Deluxe Essential Handbook
-https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMContentLoaded_event
-https://www.w3schools.com/html/html_images.asp
-Kevin Powell "Modal Made Easy" Tutorial
-W3S Modals
+## Resources, References and Credit
+
+### Media and Fonts
+
+- Google Fonts
+- https://pixabay.com/
+- https://pexels.com
+- Pokemon Annual 2023
+- Pokemon Super Deluxe Essential Handbook 
+ 
+### Code
+
+- https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMContentLoaded_event
+- https://www.w3schools.com/html/html_images.asp
+- Kevin Powell "Modal Made Easy" Tutorial
+- Kevin Powell "CSS Tutorials
+- WebDev Simplified "Simple Quiz" Tutorial
+- W3S Modals
+- W3S JavaScript Tutorials
+- Code Institute "Love Maths" Project
+- My mentor Garreth McGirr for all the suggestions and guidance
+- RealFaviconGenerator: Used to create a Favicon
+
+### Content
+
+All the questions provided in the game were taken from Pokemon Annual 2023
+and Pokemon Super Deluxe Essentials Handbook.
