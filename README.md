@@ -4,11 +4,32 @@ All About Pokémon is a fun Pokémon-themed website that features fun  activitie
 View the live website here [All About Pokemon!](https://aylamccarthy.github.io/all-about-pokemon/).
 
 
-![Mockup](docs/readme_images/mockup_techsini.png)
+![Mockup](assets/images/mockup.techsini.png)
 
-External User's Goal:
+## User Experience
 
-Site Owner's Goal:
+### Initial Discussion
+Quizzes have always been a popular choice of entertainment for kids and grown ups. This project was inspired by my three young children who are always up for a challenge, and love everything about Pokémon. And what better way to build a project than to combine these two and make an amazing Pokémon-themed website that will surely entertain both children and grown ups.
+
+
+### External User's Goal:
+
+* To be able to visit the website and play the game.
+* To have fun while engaging ones brain.
+* To be able to play the game on different devices.
+
+
+### Site Owner's Goal:
+
+* To be able to offer a fully responsive and interactive website that will entertain the user. 
+* To be able to satisfy user's expectation so they will come back to the website as returning visitors.
+
+### Possible Future Plans:
+* To be able to upload new materials weekly, every Monday. To make sure to engage users and guarantee repeat visits.
+* To offer more variety than just quizzes. For example, I would like to upload other games as well, such as puzzles, word search, spellings and memory games.
+* To include a feature where users can save their progress.
+
+
 
 ## TABLE OF CONTENTS
 
@@ -22,6 +43,7 @@ Site Owner's Goal:
 
 
 * [Design](#design)
+
     * [Wireframes](#wireframes)
 
 * [Technologies](#technologies)
@@ -58,7 +80,10 @@ Site Owner's Goal:
 
 
 ## Features
-
+ The website has three pages.
+ * Home page- the landing page where the quiz game is located.
+ * About Page- where website users will find all the website information.
+ * Sign Up page - where website users will be provided an option to sign up through a form.
 
 ### Site Wide
 * Navigation Menu
