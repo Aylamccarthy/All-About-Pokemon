@@ -249,7 +249,7 @@ Testing was focused to ensure the following criteria were met:
 - Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user.
 - All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions.
 - All not textual content had alternative text or titles so descriptions are read out to screen readers
-HTML page lang attribute has been set.
+- HTML page lang attribute has been set.
 - Aria properties have been implemented correctly.
 - WCAG 2.1 Coding best practices being followed.
 
@@ -428,9 +428,20 @@ Behavior was as expected and my outlook application was opened ready to send an 
 
 ## HTML
 
-- No errors were returned when passing through the official W3C validator
+- No errors were returned when passing through the official W3S validator
 
-![HTML Validator](docs/readme_images/html_validator.png)
+Home Page
+
+![HTML Validator Home Page](assets/images/index.html.validation.png)
+
+About Us Page
+
+![HTML Validator About Us Page](assets/images/aboutus.validation.png)
+
+Sign Up Page 
+
+![HTML Validator Sign Up Page](assets/images/signup.validation.png)
+
 
 
 ## CSS
@@ -438,7 +449,9 @@ Behavior was as expected and my outlook application was opened ready to send an 
 - No errors were found when passing through the official (Jigsaw) validator
 CSS Validator Results
 
-![CSS Validator](docs/readme_images/css_validation.png)
+![CSS Validator](assets/images/css_validation.png)
+
+## 
 
 
 
