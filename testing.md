@@ -18,6 +18,7 @@
 
 ---
 
+
 | Page       | Test                                                                                   | Completed successfully |
 | :--------- | :------------------------------------------------------------------------------------- | :--------------------: |
 | All        | Navigation links to relevant pages                                                     |          Yes           |
@@ -33,8 +34,21 @@
 | Game       | Push current question out of question array                                            |          Yes           |
 | Game       | Final Score is displayed                                                               |          not yet       |
 | Game       | Appropiate text depending on score is displayed                                        |          not yet       |
-| Sign Up    | User can only sign up when all required fields are filled in                           |          not yet       |
+| Sign Up    | User can only sign up when all required fields are filled in                           |          yes           |
 | Game Score | Previous scores are displayed                                                          |          not yet       |
+
+
+**Navigation Links**
+
+Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. 
+This was done by clicking on the navigation links on each page. Links on all pages navigated to the correct pages as expected.
+
+| Navigation Link | Page to Load  |
+|-----------------|---------------|
+| Home            |  index.html   |
+| About Us        |  aboutus.html |
+| Sign Up         |  sign-up.html |
+
 
 
 ## <a name="validator-testing">Validator Testing</a>
@@ -104,12 +118,23 @@ All JavaScript files were validated through JSHint.
 
 The WAVE WebAIM web accessibility evaluation tool was used to check for accessibility standards.
 
-The first result gave a poor color contrast with the "Start" button with the white font. It was resolved by changing the font color to black.
+The first result gave a poor color contrast with the foreground text "Start" button with the white font. It was resolved by changing the font color to black.
 
 <details>
 <summary>Result</summary>
 
 ![Wave Testing Result](assets/images/wave_test.png)
+
+Testing was focused to ensure the following criteria were met:
+
+- All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs.
+- Color contrasts meet a minimum ratio as specified in WCAG 2.1 Contrast Guidelines.
+- Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user.
+- All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions.
+- All not textual content had alternative text or titles so descriptions are read out to screen readers
+- HTML page lang attribute has been set.
+- Aria properties have been implemented correctly.
+- WCAG 2.1 Coding best practices being followed.
 
 </details>
 

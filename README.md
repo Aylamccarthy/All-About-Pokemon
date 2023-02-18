@@ -231,55 +231,7 @@ Actual:
 Website behaved as expected with the exception of switching to the viewport size to 320px. Details can be found in Unfixed Bugs.
 
 
-### Accessibility
 
-# Wave Accessibility
-
-Wave Testing Issue:
-
-The first testing gave a poor contrast result with the foreground text and background color.
-
-[Wave Accessibility](https://wave.webaim.org/) tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
-
-
-![Wave Testing Result](assets/images/wave_test.png)
-
-Testing was focused to ensure the following criteria were met:
-
-- All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs.
-- Color contrasts meet a minimum ratio as specified in WCAG 2.1 Contrast Guidelines.
-- Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user.
-- All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions.
-- All not textual content had alternative text or titles so descriptions are read out to screen readers
-- HTML page lang attribute has been set.
-- Aria properties have been implemented correctly.
-- WCAG 2.1 Coding best practices being followed.
-
-## Lighthouse Testing
-
-### Home Page
-
-![Lighthouse Test Home page](assets/images/lighthouse_homepage.png)
-
-### About Us Page
-![Lighthouse About Us page](assets/images/lighthouse_aboutus.png)
-
-### Sign Up Page
-![Lighthouse Sign Up page](assets/images/lighthouse_signup.png)
-
-### Functional Testing
-
-**Navigation Links**
-
-Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
-
-| Navigation Link | Page to Load  |
-|-----------------|---------------|
-| Home            |  index.html   |
-| Gallery         |  gallery.html |
-| Sign Up         |  sign-up.html |
-
-Links on all pages navigated to the correct pages as expected.
 
 **Form Testing**
 
@@ -426,17 +378,6 @@ Actual:
 
 Behavior was as expected and my outlook application was opened ready to send an email to the target address.
 
-# Validator Testing
-
-## HTML
-
-
-
-
-## CSS
-
-
-## 
 
 
 
@@ -450,23 +391,13 @@ I encountered so many bugs through out the whole process of building this websit
 - Actual: Responsiveness of the website did not work as expected on mobile devices.
 - Solution: With more research and mentor consultation, and changing my codes as necessary, I was able to fix these bugs on time, with the exception of thank you page which is still not working as expected on mobile devices. But will do my very best to have this fixed on future release.
 
-### Before:
-
-![Before](docs/readme_images/responsiveness_before.png)
-
-### After:
-
-![After](docs/readme_images/responsiveness_after.png)
-
-### Unfixed Bug
-![Thank You Page](docs/readme_images/thankyoupage.png)
 
 
 # Deployment
 
 ## Version Control
 
-The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘Cobh-Childrens-Theatre’.
+The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘All-About-Pokémon’.
 
 The following git commands were used throughout development to push code to the remote repo:
 
@@ -479,13 +410,29 @@ The following git commands were used throughout development to push code to the 
 
 ## Deployment to Github Pages
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows:
-    - In the GitHub repository, navigate to the Settings tab
-    - From the menu on left select 'Pages'
-    - From the source section drop-down menu, select the Branch: main
-    - Click 'Save'
-    - A live link will be displayed in a green banner when published successfully.
-The live link can be found here -  https://aylamccarthy.github.io/cobh-childrens-theatre/
+This project was created through [GitHub](https://github.com/):
+
+1. Locating repository, clicking on the "New" button.
+2. Selecting the relevant template: "Code-Institute-Org/gitpod-full-template"
+3. Adding the repository name "all-about-pokemon".
+4. Clicking the button "Create repository".
+
+This project was developed using [GitPod](https://gitpod.io/) and committed and pushed to GitHub using the GitPod terminal. Following "git commands" were used:
+
+1. **git add .** - This command for multiple files to the staging area before commiting.
+2. **git commit -m "Message explaining update"** - This command explained changes that were done to the repository.
+3. **git push** - This command was used to push all committed changes to the GitHub Repository.
+
+This project was deployed from its Github repository to Github Pages:
+
+1. Log in to Github account
+2. From the projects repository selecting "Settings" tab.
+3. Click on "Pages" from the left-hand menu
+4. The "Source" box must state "Deplay from branch"
+5. Under "Branch", click the dropdown named "None" and select "main".
+6. Click save.
+7. After a few seconds, refresh the page and retrieve the link.
+
 
 ### Clone the Repository Code Locally
 
@@ -498,26 +445,6 @@ Navigate to the GitHub Repository you want to clone to use locally:
 - Type git clone copied-git-url into the IDE terminal
 
 - The project will now have been cloned on your local machine for use.
-
-## Credits
-* Code Institute "Love Running" project.
-* Gareth McGirr  "Tacos Travel" project.
-* Kevin Powell Youtube Tutorial- HTML and CSS for Beginners. Responsive Design Made Easy.
-* Code Institute-Slack Channel
-
-
-## Content
-All the images are from  and .
-Wikipedia and google were used for word definitions.
-All contents are owned by Cobh Children's Theatre. 
-
-
-
-
-
-
-
-
 
 
 ## Resources, References and Credit
@@ -542,6 +469,10 @@ All contents are owned by Cobh Children's Theatre.
 - Code Institute "Love Maths" Project
 - My mentor Garreth McGirr for all the suggestions and guidance
 - RealFaviconGenerator: Used to create a Favicon
+- Gareth McGirr  "Tacos Travel" project.
+- Kevin Powell Youtube Tutorial- HTML and CSS for Beginners. Responsive Design Made Easy.
+- Code Institute-Slack Channel
+- WebDev Simplified "Box-sizing" Tutorial
 
 ### Content
 
