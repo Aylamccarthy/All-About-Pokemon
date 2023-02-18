@@ -140,14 +140,20 @@
   .score-area {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 2rem;
+
   }
   #correct-answer {
     color: green;
+    font-weight: bold;
+   
     
   }
   #incorrect-answer{
-    color: red;
+    color: black;
+    font-weight: bolder;
+    
   }
 /* Modal */
 .modal-btn {
