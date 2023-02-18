@@ -37,10 +37,9 @@ Quizzes have always been a popular choice of entertainment for kids and grown up
 * [Features](#Features)
     * [Site Wide](#site-wide)
     * [Landing Page](#landing-page)
-    * [Gallery](#gallery-page)
     * [Sign Up PAge](#sign-up-page)
     * [Existing Features](#existing-features)
-    * [Features Left to Implement](#features-left-to-implement)
+    * [Features Left to Implement](#possible-future-plans)
 
 
 * [Design](#design)
@@ -126,9 +125,9 @@ This will allow users to easily navigate between the pages within the site on an
 
 ### Color Scheme
 
-The website uses a pallete of pastel colors generated from https://coolors.co/generate. This is intentional choice to complement the bright and colorful pokemon figures.
+The website uses a pallete of pastel colors generated from https://coolors.co/generate. This is intentional choice to complement the bright and colorful world of Pokémon.
 
-![Color Paletter](assets/images/colorscheme.png)
+![Color Palette](assets/images/colorscheme.png)
 
 ### Typography
 
@@ -233,6 +232,9 @@ Website behaved as expected with the exception of switching to the viewport size
 ### Accessibility
 
 # Wave Accessibility
+
+Wave Testing Issue:
+The first testing gave a poor contrast result with the foreground text and background color.
 [Wave Accessibility](https://wave.webaim.org/) tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
 ![Wave Testing Result](docs/readme_images/wave_test.png)
 
