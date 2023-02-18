@@ -207,6 +207,8 @@ Sign Up Form
 
 Testing was ongoing throughout the entire build. I utilised Chrome Developer tools while building to pinpoint and troubleshoot any issues as I went along.
 
+See [TESTING.md](testing.md) for an overview of website testing and debugging.
+
 ### Responsiveness
 
 All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in WCAG 2.1 Reflow criteria for responsive design on Chrome, Edge, Firefox and Opera browsers.
@@ -428,28 +430,11 @@ Behavior was as expected and my outlook application was opened ready to send an 
 
 ## HTML
 
-- No errors were returned when passing through the official W3S validator
-
-Home Page
-
-![HTML Validator Home Page](assets/images/index.html.validation.png)
-
-About Us Page
-
-![HTML Validator About Us Page](assets/images/aboutus.validation.png)
-
-Sign Up Page 
-
-![HTML Validator Sign Up Page](assets/images/signup.validation.png)
 
 
 
 ## CSS
 
-- No errors were found when passing through the official (Jigsaw) validator
-CSS Validator Results
-
-![CSS Validator](assets/images/css_validation.png)
 
 ## 
 
