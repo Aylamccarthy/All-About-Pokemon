@@ -122,7 +122,7 @@ This will allow users to easily navigate between the pages within the site on an
 
 ### Color Scheme
 
-The website uses a pallete of pastel colors generated from https://coolors.co/generate. This is intentional choice to complement the bright and colorful world of Pokémon.
+The website used a pallete of pastel colors generated from https://coolors.co/generate. This is intentional choice to complement the bright and colorful world of Pokémon.
 
 ![Color Palette](assets/images/colorscheme.png)
 
