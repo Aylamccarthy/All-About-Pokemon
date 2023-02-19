@@ -151,7 +151,7 @@ The website has a custom 404 page with adequate information to guide users back 
 ## Design
 
 ### Wireframes
-
+The wireframes used were generated from Balsamiq https://balsamiq.com/wireframes/desktop/
 <br><br>
 Home page
 <br><br>
@@ -186,7 +186,7 @@ Sign Up page
 * Tinyjpg
     * https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
 * balsamiq
-    * Wireframes were created using balsamiq from https://balsamiq.com/wireframes/desktop/#
+    * Wireframes were created using balsamiq from https://balsamiq.com/wireframes/desktop/
 * Coolors.co
     * The colour pallete used throughout the site was generated from Coolors.
 
