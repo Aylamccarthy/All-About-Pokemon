@@ -63,18 +63,15 @@ Quizzes have always been a popular choice of entertainment for kids and grown up
     * [Validator Testing](#validator-testing)
         * [HTML](#html)
         * [CSS](#css)
-
-* [Bugs/Unfixed Bugs](#bugsunfixed-bugs)
+        * [JavaScript](#)
+    * [Bugs/Unfixed Bugs](#bugs-unfixed-bugs)
 
 * [Deployment](#deployment)
     * [Version Control](#version-control)
     * [Deployment to Github Pages](#deployment-to-github-pages)
     * [Clone the Repository Code Locally](#clone-the-repository-code-locally)
 
-* [Credits](#credits)
-
-* [Content](#content)
-
+* [Resources, References and Credit](#resources-references-and-credit)
     
 
 
@@ -208,189 +205,6 @@ Sign Up Form
 Testing was ongoing throughout the entire build. I utilised Chrome Developer tools while building to pinpoint and troubleshoot any issues as I went along.
 
 See [TESTING.md](testing.md) for an overview of website testing and debugging.
-
-### Responsiveness
-
-All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in WCAG 2.1 Reflow criteria for responsive design on Chrome, Edge, Firefox and Opera browsers.
-
-Steps to test:
-
-1. Open browser and navigate to Cobh Children's Theatre
-2. Open the developer tools (right click and inspect)
-Set to responsive and decrease width to 320px
-3. Set the zoom to 50%
-4. Click and drag the responsive window to maximum width.
-
-
-Expected:
-
-Website is responsive on all screen sizes and no images are pixelated or stretched. No horizontal scroll is present. No elements overlap.
-
-Actual:
-
-Website behaved as expected with the exception of switching to the viewport size to 320px. Details can be found in Unfixed Bugs.
-
-
-
-
-**Form Testing**
-
-The form on the sign up page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input. The following test scenarios were covered:
-
-_Scenario One - Correct Inputs_
-
-Steps to test:
-
-1. Navigate to [Cobh children's Theatre](https://aylamccarthy.github.io/cobh-childrens-theatre/) Sign Up Page.
-
-2. Scroll down to the form and input the following data:
-    - Child's Full Name: John McCarthy
-    - Parent/Guardian's Full Name: Mike McCarthy
-    - Parent/Guardian's Contact Number: 123456789
-    - Email: mmcarthy@gmail.com
-3. Click Submit
-4. User should be redirected to contact.html confirmation page
-
-Expected:
-
-Form submits with no warnings or errors and user is redirected to contact.html confirmation page.
-
-Actual:
-
-Website behaved as expected with no errors or warnings and redirected to thankyou.html.
-
-_Scenario Two - Missing Required Field  Child's Full Name_
-
-Steps to test:
-
-1. Navigate to [Cobh children's Theatre](https://aylamccarthy.github.io/cobh-childrens-theatre/) Sign Up Page.
-2. Scroll down to the form and input the following data:
-    - Child's Full Name: 
-    - Parent/Guardian's Full Name: Mike McCarthy
-    - Parent/Guardian's Contact Number: 123456789
-    - Email: mmcarthy@gmail.com
-3. Click Submit
-
-Expected:
-
-The form does not submit and an Error is displayed to tell the user that the field is required.
-
-Actual:
-
-Website behaved as expected, error message was displayed and the form did not submit.
-
-_Scenario Three - Missing Required Field Parent/Guardian's Full Name_
-
-Steps to test:
-
-1. Navigate to [Cobh children's Theatre](https://aylamccarthy.github.io/cobh-childrens-theatre/) Sign Up Page.
-2. Scroll down to the form and input the following data:
-    - Child's Full Name: John McCarthy
-    - Parent/Guardian's Full Name: 
-    - Parent/Guardian's Contact Number: 123456789
-    - Email: mmcarthy@gmail.com
-
-3. Click Submit
-
-Expected:
-
-The form does not submit and an Error is displayed to tell the user that the field is required.
-
-Actual:
-
-Website behaved as expected, error message was displayed and the form did not submit.
-
-_Scenario Four - Missing Required Field Email_
-
-Steps to test:
-
-1. Navigate to [Cobh children's Theatre](https://aylamccarthy.github.io/cobh-childrens-theatre/) Sign Up Page.
-2. Scroll down to the form and input the following data:
-    - Child's Full Name: John McCarthy
-    - Parent/Guardian's Full Name: 
-    - Parent/Guardian's Contact Number: 123456789
-    - Email: 
-3. Click Submit
-
-Expected:
-
-The form does not submit and an Error is displayed to tell the user that the field is required.
-
-Actual:
-
-Website behaved as expected, error message was displayed and the form did not submit.
-
-_Scenario Five - Incorrect email format_
-
-Steps to test:
-
-1. Navigate to [Cobh children's Theatre](https://aylamccarthy.github.io/cobh-childrens-theatre/) Sign up page.
-2. Scroll down to the form and input the following data:
- Child's Full Name: John McCarthy
-    - Parent/Guardian's Full Name: 
-    - Parent/Guardian's Contact Number: 123456789
-    - Email: mmcarthy.gmail.com
-3. Click Submit
-
-Expected:
-
-The form does not submit and an Error is displayed to tell the user that a valid email is required and the format it should be in.
-
-Actual:
-
-Website behaved as expected, error message was displayed and the form did not submit.
-
-**Footer Social Media Icons / Links** 
-
-Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab.
-
-Each item opened a new tab when clicked as expected.
-
-**Footer Contact Information**
-
-Testing was performed on the phone number in the contact information section of the footer to ensure behaviour was as expected.
-
-_Steps to test Telephone Number_
-
-1. Navigate to [Cobh children's Theatre](https://aylamccarthy.github.io/cobh-childrens-theatre/) Home page.
-2. Click the phone number in the footer (01 123 456 789)
-
-Expected:
-
-A window is opened asking which device you would like to call from.
-
-Actual:
-
-Behavior was as expected and the window presented me with the following option to call:
-
-Mobile Phone 0871376895
-
-_Steps to test Email Link_
-
-1. Navigate to [Cobh children's Theatre](https://aylamccarthy.github.io/cobh-childrens-theatre/) Home page.
-2. Click the email address in the footer (info.cobhtheatre@gmail.com)
-
-Expected:
-
-A windows pop up is displayed asking what application you would like to send a mail from or your default email application is opened.
-
-Actual:
-
-Behavior was as expected and my outlook application was opened ready to send an email to the target address.
-
-
-
-
-## Bugs/Unfixed Bugs
-
-I encountered so many bugs through out the whole process of building this website. Most of them I resolved on time. But the ones listed below were the ones I found most challenging;
-
- Responsiveness: 
-
-- Expected: The website would work on all devices, screen sizes and orientation.
-- Actual: Responsiveness of the website did not work as expected on mobile devices.
-- Solution: With more research and mentor consultation, and changing my codes as necessary, I was able to fix these bugs on time, with the exception of thank you page which is still not working as expected on mobile devices. But will do my very best to have this fixed on future release.
-
 
 
 # Deployment
