@@ -151,31 +151,22 @@ The website has a custom 404 page with adequate information to guide users back 
 ## Design
 
 ### Wireframes
+
 <br><br>
 Home page
 <br><br>
 
-![Home Page large screen](docs/readme_images/homepage.png)
+![Home Page desktop and mobile screen](assets/images/wireframe_homepage.png)
 
-![Home Page small screen](docs/readme_images/homepage_smallscreen.png)
 
-Contact form successful submission page.
+About Us page.
 
-![Contact form submission success](docs/readme_images/thankyoupage_large%20screen.png)
+![About Us desktop and mobile screen](assets/images/wireframe_aboutus.png)
 
-![Contact form submission success small screen](docs/readme_images/thankyoumsg_smallscreen.png)
 
-Gallery page
+Sign Up page
 
-![Gallery page large screen](docs/readme_images/gallery_largescreen.png)
-
-![Gallery page small screen](docs/readme_images/gallerysmallscreen.png)
-
-Sign Up Form
-
-![Sign UpForm Large Screen](docs/readme_images/signupform_largescreen.png)
-![Sign Up Form Small Screen](docs/readme_images/signup_smallscreen.png)
-
+![Sign up page desktop and mobile screen](assets/images/wireframe_signup.png)
 
 
 ## Technologies
