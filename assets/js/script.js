@@ -88,6 +88,7 @@ function selectAnswer(e) {
     startButton.innerText = 'Restart';
     startButton.classList.remove('hide');
   }
+  disableAnswerButtons();
 
 }
 
@@ -135,8 +136,7 @@ function incrementWrongAnswer() {
 /* Disables the other answer buttons once the user choose his answer */
 
 function disableAnswerButtons() {
-  answerButtonsElement.addEventListener('click', );
-
+  document.getElementsByClassName("btn").disabled = true;
 }
 
 /**
