@@ -30,6 +30,7 @@ startButton.addEventListener('click', startGame); // startGame function will exe
 nextButton.addEventListener('click', () => {
   currentQuestionIndex++;
   setNextQuestion();
+
 });
 
 // This function that will execute when the "Start" button is clicked 
