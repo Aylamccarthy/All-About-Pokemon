@@ -162,21 +162,23 @@
     justify-content: center;
     align-items: center;
     padding-top: 1rem;
+    
   }
   .button close-button {
     border-radius: 5px;
   }
   .modal {
     border-radius: 10px;
+    box-shadow: 0 0 10px 2px;
     background-color: hsl(200, 100%, 50%);
     color: white;
+    width: 60%;
   }
   .close-button {
     color: black;
     font-size: 1.5rem;
     font-weight: bold;
     padding: 10px 20px;
-
   }
 
 /* Sign up Page */
