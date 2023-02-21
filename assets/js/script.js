@@ -35,11 +35,17 @@ nextButton.addEventListener('click', () => {
 
 // This function that will execute when the "Start" button is clicked 
 function startGame() {
+  resetScores();
   startButton.classList.add('hide');
   shuffledQuestions = questions.sort(() => Math.random() - .5);// Shuffles the questions so they are in different random order for each game
   currentQuestionIndex = 0;
   questionContainerElement.classList.remove('hide');
   setNextQuestion();
+}
+// Reset scores
+function resetScores() {
+  document.getElementById('correct-answer').innerText = 0;
+  document.getElementById('incorrect-answer').innerText = 0;
 }
 
 // This function that will execute when the "Next" button is clicked
@@ -59,7 +65,6 @@ function showQuestion(question) {
     }
     button.addEventListener('click', selectAnswer);
     answerButtonsElement.appendChild(button);
-    button.addEventListener('click', incrementScore);
   });
 }
 
@@ -88,6 +93,7 @@ function selectAnswer(e) {
     startButton.innerText = 'Restart';
     startButton.classList.remove('hide');
   }
+  checkAnswer(selectedButton);
   disableAnswerButtons();
 
 }
@@ -122,22 +128,45 @@ function checkAnswer(selectedButton) {
 //Gets the current score from the DOM and increments it by 1
 function incrementScore() {
   let correctScore =  parseInt(document.getElementById('correct-answer').innerText);
+  console.log(correctScore);
   correctScore = correctScore + 1;
+  
+  console.log(correctScore);
+  document.getElementById('correct-answer').innerText = correctScore;
 
 }
 // Gets the current tally of incorrect answers from the DOM and increase it by 1
 function incrementWrongAnswer() {
-  let incorrectScore = parseInt(document.getElementById('incorrect-answer').innerText);
-  document.getElementById('incorrect-answer').innertext = ++incorrectScore;
-
+  let incorrectScore =  parseInt(document.getElementById('incorrect-answer').innerText);
+  console.log(incorrectScore);
+  incorrectScore = incorrectScore + 1;
+  
+  console.log(incorrectScore);
+  document.getElementById('incorrect-answer').innerText = incorrectScore;
 }
-
-
 /* Disables the other answer buttons once the user choose his answer */
 
 function disableAnswerButtons() {
-  document.getElementsByClassName("btn").disabled = true;
+  
+  // get the list of buttons with class 'btn'
+  var elements = document.getElementsByClassName("btn");
+  // for each button in the elements list      
+  for(var x=0; x < elements.length; x++)
+        {
+          console.log(elements[x])
+          // check if next button
+          if(elements[x].classList.contains('next-btn') || elements[x].classList.contains('start-btn'))
+          {
+            
+            continue;
+          }else{
+            elements[x].disabled = true;
+            
+          }
+        }
 }
+
+
 
 /**
  * The first five questions was from https://www.theguardian.com/games/2020/sep/01/gotta-quiz-em-all-the-guardians-pokemon-quiz 
