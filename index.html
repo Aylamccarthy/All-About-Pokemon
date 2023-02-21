@@ -54,12 +54,28 @@
               <button data-type="answer" class="btn">Answer 4</button>
             </div>
           </div>
-
+          
           <div class="controls">
             <button data-type="start" id="start-btn" class="start-btn btn">Start</button>
             <button data-type="next" id="next-btn" class="next-btn btn hide">Next</button>
           </div>
-         
+          
+         <!--Modal-->
+         <!--Idea from Kevin Powell's Modal made easy: Dialog-->
+         <div class="modal-container"> 
+          <button class="button open-button"><strong>Instructions</strong></button>
+          <dialog class="modal" id="modal"> 
+            <h2>Instructions:</h2>
+            <p>1. Click the "Start"button to start the quiz(20 questions).</p>
+            <p>2. Each question has four answer choices you can select from.</p>
+            <p>3. Once you've chosen your answer, click the "Next button to show the next question.</p>
+            <p>4. Repeat step no. 2 until you finish all the questions.</p>
+            <p>5. Should you wish to play again, just click the "Restart" button.</p>
+            <button class="close-button"><strong>Let's play!</strong></button>
+          </dialog>
+         </div>
+          
+
           <div class="score-area">
             <p class="scores"><strong>Correct Answers </strong> <span id="correct-answer">0</span></p>
             <p class="scores"><strong>Incorrect Answers</strong> <span id="incorrect-answer">0</span></p>
