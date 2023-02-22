@@ -14,10 +14,9 @@
 - [Issues/ Bugs Found & Resolved](#issues-bugs)
 - [Unresolved](#unresolved)
 
-## <a name="functional-testing">Functional Testing</a>
+## Functional Testing
 
 ---
-
 
 | Page       | Test                                                                                   | Completed successfully |
 | :--------- | :------------------------------------------------------------------------------------- | :--------------------: |
@@ -43,19 +42,19 @@
 Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. 
 This was done by clicking on the navigation links on each page. Links on all pages navigated to the correct pages as expected.
 
-| Navigation Link | Page to Load  |
-|-----------------|---------------|
-| Home            |  index.html   |
-| About Us        |  aboutus.html |
-| Sign Up         |  sign-up.html |
+| Navigation Link | Page to Load  | Completed |
+|-----------------|---------------|-----------|
+| Home            |  index.html   |   Yes     |
+| About Us        |  aboutus.html |   Yes     |
+| Sign Up         |  sign-up.html |   Yes     |
 
 
 
-## <a name="validator-testing">Validator Testing</a>
+## Validator Testing
 
 ---
 
-### <a name="html">HTML</a>
+### HTML
 
 [W3C Markup Validator](https://validator.w3.org/)
 
@@ -79,7 +78,7 @@ Sign Up Page
 </details>
 
 
-### <a name="css">CSS</a>
+### CSS 
 
 [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
@@ -97,7 +96,7 @@ CSS Validator Results
 
 </details>
 
-### <a name="js">JS</a>
+### JS
 
 [JSHint JS Validator](https://jshint.com/)
 
@@ -110,7 +109,7 @@ All JavaScript files were validated through JSHint.
 
 </details>
 
-## <a name="wave">WAVE</a>
+## WAVE
 
 ---
 
@@ -139,7 +138,7 @@ Testing was focused to ensure the following criteria were met:
 </details>
 
 
-## <a name="lighthouse">LightHouse</a>
+## LightHouse
 
 ---
 
@@ -171,7 +170,7 @@ Lighthouse was used (accessed through Developer Tools in Chrome) to analyse for 
 </details>
 
 
-## <a name="browser-compatibility">Browser Compatibility</a>
+## Browser Compatibility
 
 ---
 
@@ -180,7 +179,7 @@ This website was tested on Chrome, Microsoft Edge, and Firefox for desktop.
 The website was tested on Safari for mobile and tablet.
 
 
-## <a name="responsivity">Responsivity</a>
+## Responsivity
 
 ---
 
@@ -221,7 +220,7 @@ Website is responsive on all screen sizes and no images are pixelated or stretch
 
 Actual:
 
-Website behaved as expected with the exception of switching to the viewport size to 320px. Details can be found in Unfixed Bugs.
+Website behaved as expected with the exception of switching to the viewport size to 320px. Some elements overlapped. I was able to fix this on time.
 
 
 **Form Testing**
@@ -291,20 +290,20 @@ Actual:
 Website behaved as expected, error message was displayed and the form did not submit.
 
 
-## <a name="issues-bugs">Issues/ Bugs Found & Resolved</a>
+## Issues/ Bugs Found & Resolved
 
 ---
 
 ### Validation Issues
 
-The initial W3S Mark Up Validation returned some errors. But I was able to resolve all of them on time.
-The initial test returned an error for JsHint.
+The initial W3S Mark Up Validation returned some errors because there were some unclosed tags. But I was able to resolve all of them on time.
+The initial JsHint test results returned with a lot of "warnings" because of missing commas and unused variables.  I was able to fix all of them with the exemption of two warnings.
 
 ### Wave Issue
 
 The first result gave a poor contrast  for the white font of "Start" button. I resolved it by changing the font color to black.
 
-## <a name="unresolved">Unresolved</a>
+## Unresolved
 
 ## Bugs/Unfixed Bugs
 
@@ -316,9 +315,13 @@ I encountered so many bugs through out the whole process of building this websit
 - Actual: Responsiveness of the website did not work as expected on mobile devices. 
 - Solution: With more research and mentor consultation, and changing my codes as necessary, I was able to fix these bugs on time, with the exception of the Footer which is still not working as expected on mobile devices. But will do my very best to have this fixed on future release.
 
-### The Footer would not stick to the bottom of the page
+Interactivity:
+- Expected: That all JavaScript functions would work  as intended for the websites optimum interactivity.
+- Actual: Most of them I was able to get working but what I found it quite challenging to code the functions that would correct the   answers and increment them accordingly.
+- Solution: With more research and mentor consultation(my mentor Gareth McGirr is an absolute gem) I was able to get it working as desired.
 
-During testing I found out that the footer would not stick to the
- bottom of the page. This bug is still unresolved.
+
+- 
+
 
  
