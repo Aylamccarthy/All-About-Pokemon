@@ -23,7 +23,8 @@ const answerButtonsElement = document.getElementById('answer-buttons') ;
 
 let shuffledQuestions, currentQuestionIndex;
 
-startButton.addEventListener('click', startGame); // startGame function will execute  when the "Start" button is clicked
+// startGame function will execute  when the "Start" button is clicked
+startButton.addEventListener('click', startGame); 
 nextButton.addEventListener('click', () => {
   currentQuestionIndex++;
   setNextQuestion();

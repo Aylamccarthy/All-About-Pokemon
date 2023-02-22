@@ -23,16 +23,14 @@
 | All        | Navigation links to relevant pages                                                     |          Yes           |
 | All        | Navigation hover effect                                                                |          Yes           |
 | All        | Navigation takes over 100% of the screen when toggled on mobile                        |          Yes           |
-| All        | Social media icons in the footer link to the correct external link and open in new tab |          Yes           |
 | Homepage   | Images and text flex responsively                                                      |          Yes           |
 | Homepage   | New game starts when user clicks 'Start' button                                        |          Yes           |
 | Game       | Images and text flex responsively                                                      |          Yes           |
 | Game       | New game loads a random question                                                       |          Yes           |
-| Game       | Scoreboard increments number of questions, score and progress bar                      |          not yet       |
+| Game       | Scoreboard increments number of correct and incorrect answers                          |          Yes           |
 | Game       | Green border is applied to correct answer and red border is applied to incorrect answer|          Yes           |
 | Game       | Push current question out of question array                                            |          Yes           |
-| Game       | Final Score is displayed                                                               |          not yet       |
-| Game       | Appropiate text depending on score is displayed                                        |          not yet       |
+| Game       | Final Score is displayed                                                               |          Yes           |
 | Sign Up    | User can only sign up when all required fields are filled in                           |          yes           |
 | Game Score | Previous scores are displayed                                                          |          not yet       |
 
@@ -220,7 +218,7 @@ Website is responsive on all screen sizes and no images are pixelated or stretch
 
 Actual:
 
-Website behaved as expected with the exception of switching to the viewport size to 320px. Some elements overlapped. I was able to fix this on time.
+Website behaved as expected with the exception of switching to the viewport size to 320px. Some elements overlapped. I believe it is still an issue. Unfortunately I could not fix it on time. But I will do my very best to have this fixed on future release.
 
 
 **Form Testing**
@@ -309,19 +307,22 @@ The first result gave a poor contrast  for the white font of "Start" button. I r
 
 I encountered so many bugs through out the whole process of building this website. Most of them I resolved on time. But the ones listed below were the ones I found most challenging;
 
- Responsiveness: 
+Responsiveness: 
 
 - Expected: The website would work on all devices, screen sizes and orientation.
+
 - Actual: Responsiveness of the website did not work as expected on mobile devices. 
-- Solution: With more research and mentor consultation, and changing my codes as necessary, I was able to fix these bugs on time, with the exception of the Footer which is still not working as expected on mobile devices. But will do my very best to have this fixed on future release.
+
+- Solution: With more research and mentor consultation, and changing my codes as necessary, I was able to fix most of these bugs on time, with the exception of:
+    1. The Footer which is still not working as expected on mobile devices. But will do my very best to have this fixed on future release.
+    2. Website behaved as expected with the exception of switching to the viewport size to 320px. Some elements overlapped. I believe it is still an issue. Unfortunately I could not fix this on time. But I will do my very best to have this fixed on future release.
 
 Interactivity:
-- Expected: That all JavaScript functions would work  as intended for the websites optimum interactivity.
-- Actual: Most of them I was able to get working but what I found it quite challenging to code the functions that would correct the   answers and increment them accordingly.
+- Expected: That all JavaScript functions would work  as intended for the website's optimum interactivity.
+- Actual: Most of them I was able to get working but what I found quite challenging to code were the functions that would correct the   answers and increment them accordingly.
 - Solution: With more research and mentor consultation(my mentor Gareth McGirr is an absolute gem) I was able to get it working as desired.
 
 
-- 
 
 
  

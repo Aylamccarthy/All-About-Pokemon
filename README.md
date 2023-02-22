@@ -49,6 +49,7 @@ Quizzes have always been a popular choice of entertainment for kids and grown up
 * [Technologies](#technologies)
     * [HTML](#html)
     * [CSS](#css)
+    * [JavaScript](#javascript)
     * [Github](#github)
     * [Git](#git)
     * [Tinyjpg](#tinypng)
@@ -152,6 +153,7 @@ The website has a custom 404 page with adequate information to guide users back 
 
 ### Wireframes
 The wireframes used were generated from Balsamiq https://balsamiq.com/wireframes/desktop/
+The website design has a slight deviation from the initial design. The final design has a modal that shows the instruction on how to play the quiz.
 <br><br>
 Home page
 <br><br>
@@ -227,6 +229,7 @@ This project was developed using [GitPod](https://gitpod.io/) and committed and 
 1. **git add .** - This command for multiple files to the staging area before commiting.
 2. **git commit -m "Message explaining update"** - This command explained changes that were done to the repository.
 3. **git push** - This command was used to push all committed changes to the GitHub Repository.
+4. **git status** - I tend to use this command often to make sure that all my changes are saved and my working tree is clean.
 
 This project was deployed from its Github repository to Github Pages:
 
