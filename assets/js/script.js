@@ -15,13 +15,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
 });
 
-
 const startButton = document.getElementById('start-btn');
 const nextButton = document.getElementById('next-btn');
 const questionContainerElement = document.getElementById('question-container');
 const questionElement = document.getElementById('question');
 const answerButtonsElement = document.getElementById('answer-buttons') ;
-
 
 let shuffledQuestions, currentQuestionIndex;
 let correctScore = 0;
@@ -75,7 +73,6 @@ function resetState() {
     answerButtonsElement.removeChild(answerButtonsElement.firstChild);
   }
 }
-
 /**
  * Loops through all the questions in the questions array and 
  * if its the last question, the "Restart" button will appear giving the user
@@ -114,37 +111,28 @@ function clearStatusClass(element) {
 
 function checkAnswer(selectedButton) {
   if (selectedButton.getAttribute('data-correct')) {
-    console.log('Correct answer');
     incrementScore();
   } else {
-    console.log('Incorrect');
     incrementWrongAnswer();
   }
 }
-
 
 /*Increment right and wrong answers */
 
 //Gets the current score from the DOM and increments it by 1
 function incrementScore() {
   let correctScore =  parseInt(document.getElementById('correct-answer').innerText);
-  console.log(correctScore);
   correctScore = correctScore + 1;
-  
-  console.log(correctScore);
   document.getElementById('correct-answer').innerText = correctScore;
 
 }
 // Gets the current tally of incorrect answers from the DOM and increase it by 1
 function incrementWrongAnswer() {
   let incorrectScore =  parseInt(document.getElementById('incorrect-answer').innerText);
-  console.log(incorrectScore);
   incorrectScore = incorrectScore + 1;
-  
-  console.log(incorrectScore);
   document.getElementById('incorrect-answer').innerText = incorrectScore;
 }
-/* Disables the other answer buttons once the user choose his answer */
+/* Disables the other answer buttons once the user have chosen an answer */
 
 function disableAnswerButtons() {
   
@@ -153,11 +141,9 @@ function disableAnswerButtons() {
   // for each button in the elements list      
   for(var x=0; x < elements.length; x++)
         {
-          console.log(elements[x])
           // check if next button
           if(elements[x].classList.contains('next-btn') || elements[x].classList.contains('start-btn'))
-          {
-            
+          {    
             continue;
           }else{
             elements[x].disabled = true;
@@ -165,7 +151,9 @@ function disableAnswerButtons() {
           }
         }
 }
-/* Modal */
+/**
+ * Modal
+ * Code from Kevin Powell's Modal Tutorial */ 
 const modal = document.querySelector('#modal');
 const openModal = document.querySelector('.open-button');
 const closeModal = document.querySelector('.close-button');

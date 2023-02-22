@@ -45,6 +45,24 @@
           </header>
       <!--Game Section-->
             <p class="intro"><strong>Are you a Pokémon Master? Let's find out!</strong> </p>
+
+      <!--Modal-->
+         <!--Idea from Kevin Powell's Modal made easy: Dialog-->
+         <div class="modal-container"> 
+          <button id="modal-btn" class="button open-button"><strong>Instructions</strong></button>
+          <dialog class="modal" id="modal"> 
+            <h2>Instructions:</h2>
+            <ol>
+              <li>Click the "Start"button to start the quiz(20 questions).</li>
+              <li>Each question has four answer choices you can select from.</li>
+              <li>Once you've chosen your answer, click the "Next button to show the next question.</li>
+              <li>Repeat step no. 2 until you finish all the questions.</li>
+              <li>Your scores will be shown in the scoreboard at the bottom of the page.</li>
+              <li>Should you wish to play again, just click the "Restart" button.</li>
+            </ol>
+            <button class="close-button"><strong>Let's play!</strong></button>
+          </dialog>
+         </div>
           <div id="question-container" class="hide">
             <div id="question">Question</div>
             <div id="answer-buttons" class="btn-grid">
@@ -60,20 +78,7 @@
             <button data-type="next" id="next-btn" class="next-btn btn hide">Next</button>
           </div>
           
-         <!--Modal-->
-         <!--Idea from Kevin Powell's Modal made easy: Dialog-->
-         <div class="modal-container"> 
-          <button class="button open-button"><strong>Instructions</strong></button>
-          <dialog class="modal" id="modal"> 
-            <h2>Instructions:</h2>
-            <p>1. Click the "Start"button to start the quiz(20 questions).</p>
-            <p>2. Each question has four answer choices you can select from.</p>
-            <p>3. Once you've chosen your answer, click the "Next button to show the next question.</p>
-            <p>4. Repeat step no. 2 until you finish all the questions.</p>
-            <p>5. Should you wish to play again, just click the "Restart" button.</p>
-            <button class="close-button"><strong>Let's play!</strong></button>
-          </dialog>
-         </div>
+         
           
 
           <div class="score-area">

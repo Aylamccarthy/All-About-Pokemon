@@ -161,24 +161,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 1rem;
+    padding-bottom: 1rem;
     
   }
-  .button close-button {
-    border-radius: 5px;
-  }
+  
   .modal {
     border-radius: 10px;
     box-shadow: 0 0 10px 2px;
     background-color: hsl(200, 100%, 50%);
     color: white;
     width: 60%;
+    line-height: 1.5em;
+  
   }
   .close-button {
-    color: black;
+    color: hsl(200, 100%, 50%);
     font-size: 1.5rem;
     font-weight: bold;
     padding: 10px 20px;
+    border-radius: 8px;
+    
+  }
+  #modal-btn {
+    background-color: aqua;
+    border-radius: 5px;
   }
 
 /* Sign up Page */
