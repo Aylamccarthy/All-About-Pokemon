@@ -22,7 +22,6 @@ const questionElement = document.getElementById('question');
 const answerButtonsElement = document.getElementById('answer-buttons') ;
 
 let shuffledQuestions, currentQuestionIndex;
-let correctScore = 0;
 
 startButton.addEventListener('click', startGame); // startGame function will execute  when the "Start" button is clicked
 nextButton.addEventListener('click', () => {
@@ -80,7 +79,6 @@ function resetState() {
  */
 function selectAnswer(e) {
   const selectedButton = e.target;
-  const correct = selectedButton.dataset.correct;
   Array.from(answerButtonsElement.children).forEach(button => {
     setStatusClass(button, button.dataset.correct);
   });
@@ -165,11 +163,6 @@ openModal.addEventListener('click', () => {
 closeModal.addEventListener('click', () => {
   modal.close();
 })
-
-
-
-
-
 
 /**
  * The first five questions was from https://www.theguardian.com/games/2020/sep/01/gotta-quiz-em-all-the-guardians-pokemon-quiz 
@@ -347,13 +340,6 @@ answers: [
       { text: 'Grass-Poison', correct: true }
      ]
   },
-  {
-  question: 'Giratina is a Legendary Pokémon. But does it evolve?',
-  answers: [
-       { text: 'No', correct: true},
-       { text: 'Yes', correct: false }
-     ]
-  }, 
   {
   question: 'Which Region will you find adorable Clefairy?',
   answers: [

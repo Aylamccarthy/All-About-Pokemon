@@ -106,7 +106,7 @@ All JavaScript files were validated through JSHint.
 <details>
 <summary>Result</summary>
 
-![Screenshot of JSHint testing](assets/testing/jshint.jpg)
+![Screenshot of JSHint testing](assets/images/jshint_validator.png)
 
 </details>
 
