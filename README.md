@@ -63,7 +63,7 @@ Quizzes have always been a popular choice of entertainment for kids and grown up
     * [Validator Testing](#validator-testing)
         * [HTML](#html)
         * [CSS](#css)
-        * [JavaScript](#)
+        * [JavaScript](#javascript)
     * [Bugs/Unfixed Bugs](#bugs-unfixed-bugs)
 
 * [Deployment](#deployment)
@@ -272,7 +272,7 @@ Navigate to the GitHub Repository you want to clone to use locally:
 - W3S Modals
 - W3S JavaScript Tutorials
 - Code Institute "Love Maths" Project
-- My mentor Garreth McGirr for all the suggestions and guidance
+- My mentor Garreth McGirr for all the corrections,suggestions, guidance reassurance and patience.
 - RealFaviconGenerator: Used to create a Favicon
 - Gareth McGirr  "Tacos Travel" project.
 - Kevin Powell Youtube Tutorial- HTML and CSS for Beginners. Responsive Design Made Easy.
