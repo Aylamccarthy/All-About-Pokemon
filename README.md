@@ -5,7 +5,7 @@ All About Pokémon is a fun Pokémon-themed website that features fun  activitie
 View the live website here [All About Pokemon!](https://aylamccarthy.github.io/all-about-pokemon/).
 
 
-![Mockup](assets/images/mockup.techsini.png)
+![Mockup](assets/images/mockup_techsini.png)
 
 ## User Experience
 
